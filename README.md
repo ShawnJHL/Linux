@@ -41,18 +41,18 @@ ln (SYMBOLIC LINK)
 - ln -s {PATH FROM} {PATH TO}
 
 ### COMMON ARGUMENTS
-===
+---
 - -r - RECURSIVE
 - -f - FORCE
 - -i - INTERACTIVE
 
 ### APT COMMANDS
-===
+---
 > sudo apt update
 > sudo apt upgrade
 
 ### ROOT DIRECTORIES
-===
+---
 bin - USER EXECUTABLE FILES
 boot - FILES REQUIRED TO BOOT OS
 dev - FILES RELATED TO HARDWARE DEVICES (HARDWARE INFORMATION)
@@ -69,7 +69,7 @@ usr - SHARABLE READONLY FILES
 var - VARIABLE FILES
 
 ### USERS & GROUPS
-===
+---
 USER
 - USER INFORMATION FILE (GROUP, SHELL, ETC.)
   > /etc/passwd
@@ -100,7 +100,7 @@ SUDO
   > sudo -u {USER}
 
 ### PERMISSION
-===
+---
 FILE PERMISSION
 > drwxrwxrwx OWNER GROUP
 - INDEX 0 - DIRECTORY
@@ -116,7 +116,7 @@ CHANGE PERMISSION
 > chmod 777 {FILE}
 
 ### PROCESSES
-===
+---
 PROCESS MONITOR
 > top
 
@@ -127,7 +127,7 @@ PROCESS STATUS
 > ps -ef
 
 ### NETWORK
-===
+---
 IP ADDRESS
 > ifconfig
 > ip -4 addr
@@ -156,7 +156,7 @@ ALLOW PUBLIC KEYS
 OR COPY THE CONTENT OF THE PUBLIC KEY TO authorized_keys
 
 ### ENVRIONMENT
-===
+---
 ENVRIONMENT VARIABLE
 - $PATH - LIST OF DIRECTORIES YOUR SYSTEM LOOKS FOR EXECUTABLE FILES
 - $USER - THE USER NAME
@@ -181,7 +181,7 @@ SYSTEM WIDE (ALL USER ENVIRONMENT FILE)
 > /etc/environment
 
 ### CRONTAB
-===
+---
 CRONTAB
 > /var/spool/cron/crontabs
 > crontab -e
@@ -192,16 +192,16 @@ CRONTAB
 - 0, 30 15 * * * (ONCE A DAY AT 15:00 AND 15:30
 
 ### SYSTEMD
-===
+---
 /lib/systemd/system
 
 ### SENDMAIL
-===
+---
 LOG FILE
 > /var/log/mail.log
 
 ### OTHER COMMANDS
-===
+---
 COMMAND DESCIPRTION
 > man {COMMAND}
 > whatis {COMMAND}
