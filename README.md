@@ -22,6 +22,7 @@ mv
 cp  
 rm
 > rm  
+
 rmdir  
 grep
 > -n - DISPLAY LINE NUMBER
