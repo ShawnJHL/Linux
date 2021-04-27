@@ -190,7 +190,7 @@ CRONTAB FILES
 EDIT
 > crontab -e  
 
-\* \* \* \* \*
+\* \* \* \* \* COMMAND (EX /user/bin/python /home/you/script.py)
 - MINUTE, HOUR, DAY OF MONTH, MONTH, DAY OF WEEK
 - */15 \* \* \* \* (EVERY 15 MINUTES)
 - 0 15 \* \* \* (ONCE A DAY AT 15:00)
