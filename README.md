@@ -25,11 +25,11 @@ rm
 
 rmdir  
 grep
-> -n - DISPLAY LINE NUMBER
-> -C # - DISPLAY BEFORE & AFTER # LINES FROM THE MATCH
+> -n - DISPLAY LINE NUMBER  
+> -C # - DISPLAY BEFORE & AFTER # LINES FROM THE MATCH  
 
 rgrep
-> find . | xargs grep "SEARCH" (IF RGREP DOESN'T EXIST)
+> find . | xargs grep "SEARCH" (IF RGREP DOESN'T EXIST)  
 
 find
 > find . -name "\*.txt$" (FIND FILES WITH .txt EXTENTION)  
@@ -47,13 +47,13 @@ ln (SYMBOLIC LINK)
 
 ### COMMON ARGUMENTS
 ---
-- -r - RECURSIVE
-- -f - FORCE
-- -i - INTERACTIVE
+-r - RECURSIVE
+-f - FORCE
+-i - INTERACTIVE
 
 ### APT COMMANDS
 ---
-> sudo apt update
+> sudo apt update  
 > sudo apt upgrade
 
 ### ROOT DIRECTORIES
@@ -136,24 +136,24 @@ IP ADDRESS
 (INET = IPV4 & INET6 = IPV6)
 
 NETWORK STAT (NETWORK STATUS, PORT, ETC.)
-> netstat
+> netstat  
 
 CURL (GET/POST REQUESTS)
-> curl {ADDRESS}
+> curl {ADDRESS}  
 
 PING
-> ping {ADDRESS
+> ping {ADDRESS  
 
 RSA KEYS
 ===
 SSH PATH
-> .{HOME DIR}/.ssh/
+> .{HOME DIR}/.ssh/  
 
 GENERATE (PUTTYGEN CAN BE USED TO CREATE KEYS ON WINDOWS)
-> ssh-keygen -t rsa
+> ssh-keygen -t rsa  
 
 ALLOW PUBLIC KEYS
-> cat id_rsa.pub >> .ssh/authorized_keys
+> cat id_rsa.pub >> .ssh/authorized_keys  
 OR COPY THE CONTENT OF THE PUBLIC KEY TO authorized_keys
 
 ### ENVRIONMENT
@@ -168,15 +168,15 @@ ENVRIONMENT VARIABLE
 - $SHELL - DEFAULT SHELL
 
 ENVIRONMENT FILE
-> .profile (ENVIRONMENT VARIABLE)
-> .bashrc (BASH RELATED EX. EDITOR)
+> .profile (ENVIRONMENT VARIABLE)  
+> .bashrc (BASH RELATED EX. EDITOR)  
 
 TEMPORARY CHANGE
-> export {VARIABLE NAME}={VALUE} (EX. export EDITOR=vi)
-> unset {VARIABLE NAME}
+> export {VARIABLE NAME}={VALUE} (EX. export EDITOR=vi)  
+> unset {VARIABLE NAME}  
 
 TO UPDATE ENVIRONMENT VARIABLE TO THE ENVRIONMENT FILE
-> source {ENVIRONMENT FILE}
+> source {ENVIRONMENT FILE}  
 
 SYSTEM WIDE (ALL USER ENVIRONMENT FILE)
 > /etc/environment
@@ -184,8 +184,8 @@ SYSTEM WIDE (ALL USER ENVIRONMENT FILE)
 ### CRONTAB
 ---
 CRONTAB
-> /var/spool/cron/crontabs
-> crontab -e
+> /var/spool/cron/crontabs  
+> crontab -e  
 * * * * *
 - MINUTE, HOUR, DAY OF MONTH, MONTH, DAY OF WEEK
 - */15 * * * * (EVERY 15 MINUTES)
@@ -204,23 +204,23 @@ LOG FILE
 ### OTHER COMMANDS
 ---
 COMMAND DESCIPRTION
-> man {COMMAND}
-> whatis {COMMAND}
+> man {COMMAND}  
+> whatis {COMMAND}  
 
 UPTIME OF THE SYSTEM
-> uptime
+> uptime  
 
 MESSAGE TO A USER (mesg y/n TO ENABLE/DISABLE)
-> write {USER}
+> write {USER}  
 
 MESSAGE TO ALL USERS
-> well HELLO
+> well HELLO  
 
 LOGGED IN USERS
-> who
+> who  
 
 SORT
-> sort {FILE}
+> sort {FILE}  
 - -r TO REVERSE THE ORDER
 
 SHUTDOWN
