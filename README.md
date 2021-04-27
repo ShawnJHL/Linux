@@ -38,7 +38,7 @@ find
 > find . -maxdepth 1 -type f -name "\*.txt" -delete (DELETE FILES BASED ON SEARCH STRINGS)  
 > find . -maxdepth 1 -type f -name "\*2020.txt" - exec mv '{}' ./DIRECTORY/ \; (MOVE FILES BASED ON SEARCH STRINGS)
 
-head/tail
+head/tail  
 scp
 > scp -r {FILE} {ACCOUNT}@{DESTINATION SERVER}:{DESTINATION PATH}
 
