@@ -20,8 +20,8 @@ pwd
 cat  
 mv  
 cp  
-rm  
-> rm
+rm
+> rm 
 rmdir  
 grep
 > -n - DISPLAY LINE NUMBER
