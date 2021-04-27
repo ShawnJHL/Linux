@@ -47,9 +47,9 @@ ln (SYMBOLIC LINK)
 
 ### COMMON ARGUMENTS
 ---
--r - RECURSIVE
--f - FORCE
--i - INTERACTIVE
+-r - RECURSIVE  
+-f - FORCE  
+-i - INTERACTIVE  
 
 ### APT COMMANDS
 ---
