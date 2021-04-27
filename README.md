@@ -186,11 +186,11 @@ SYSTEM WIDE (ALL USER ENVIRONMENT FILE)
 CRONTAB
 > /var/spool/cron/crontabs  
 > crontab -e  
-* * * * *
+\* \* \* \* \*
 - MINUTE, HOUR, DAY OF MONTH, MONTH, DAY OF WEEK
-- */15 * * * * (EVERY 15 MINUTES)
-- 0 15 * * * (ONCE A DAY AT 15:00)
-- 0, 30 15 * * * (ONCE A DAY AT 15:00 AND 15:30
+- */15 \* \* \* \* (EVERY 15 MINUTES)
+- 0 15 \* \* \* (ONCE A DAY AT 15:00)
+- 0, 30 15 \* \* \* (ONCE A DAY AT 15:00 AND 15:30
 
 ### SYSTEMD
 ---
