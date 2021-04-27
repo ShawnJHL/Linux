@@ -21,7 +21,7 @@ cat
 mv  
 cp  
 rm  
-> rm *.txt (REMOVE ALL FILES WITH .txt EXTENTION)
+> rm \*.txt (REMOVE ALL FILES WITH .txt EXTENTION)
 rmdir  
 grep
 > -n - DISPLAY LINE NUMBER
@@ -29,11 +29,11 @@ grep
 rgrep
 - find . | xargs grep "SEARCH" (IF RGREP DOESN'T EXIST)
 find
-> find . -name "*.txt$" (FIND FILES WITH .txt EXTENTION)
+> find . -name "\*.txt$" (FIND FILES WITH .txt EXTENTION)
 > find . -type d -name something (FILE DIRECTORIES WITH something)
 > find . -type f -exec grep -l 'SEARCH STRING' {} \; | xargs grep -l 'ANOTHER TEXT' (DISPLAY FILES CONTAINING SEARCH STRINGS)
-> find . -maxdepth 1 -type f -name "*.txt" -delete (DELETE FILES BASED ON SEARCH STRINGS)
-> find . -maxdepth 1 -type f -name "*2020.txt" - exec mv '{}' ./DIRECTORY/ \; (MOVE FILES BASED ON SEARCH STRINGS)  
+> find . -maxdepth 1 -type f -name "\*.txt" -delete (DELETE FILES BASED ON SEARCH STRINGS)
+> find . -maxdepth 1 -type f -name "\*2020.txt" - exec mv '{}' ./DIRECTORY/ \; (MOVE FILES BASED ON SEARCH STRINGS)  
 head/tail
 scp
 > scp -r {FILE} {ACCOUNT}@{DESTINATION SERVER}:{DESTINATION PATH}  
