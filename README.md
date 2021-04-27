@@ -25,7 +25,7 @@ rm
 rmdir  
 grep
 > -n - DISPLAY LINE NUMBER
-> -C # - DISPLAY BEFORE & AFTER # LINES FROM THE MATCH
+> -C \# - DISPLAY BEFORE & AFTER # LINES FROM THE MATCH
 rgrep
 - find . | xargs grep "SEARCH" (IF RGREP DOESN'T EXIST)
 find
