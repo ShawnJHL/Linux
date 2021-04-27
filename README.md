@@ -226,4 +226,4 @@ SORT
 SHUTDOWN
 > shutdown
 - -h # (SHUT DOWN AFTER # MINUTES)
-- r (RESTART)
+- -r (RESTART)
