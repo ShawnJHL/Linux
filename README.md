@@ -21,7 +21,7 @@ cat
 mv  
 cp  
 rm
-> rm  
+> rm *.txt (REMOVE ALL FILES WITH .txt EXTENTION) 
 
 rmdir  
 grep
