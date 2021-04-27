@@ -184,8 +184,10 @@ SYSTEM WIDE (ALL USER ENVIRONMENT FILE)
 
 ### CRONTAB
 ---
-CRONTAB
+CRONTAB FILES
 > /var/spool/cron/crontabs  
+
+EDIT
 > crontab -e  
 \* \* \* \* \*
 - MINUTE, HOUR, DAY OF MONTH, MONTH, DAY OF WEEK
