@@ -5,7 +5,7 @@
 ---
 Tech With Tim - https://www.youtube.com/playlist?list=PLzMcBGfZo4-nUIIMsz040W_X-03QH5c5h
 
-### TERMINAL
+### REMOTE TERMINAL
 ---
 PUTTY  
 SUPERPUTTY
@@ -54,7 +54,7 @@ ln (SYMBOLIC LINK)
 ### APT COMMANDS
 ---
 > sudo apt update  
-> sudo apt upgrade
+> sudo apt upgrade  
 
 ### ROOT DIRECTORIES
 ---
