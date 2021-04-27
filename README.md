@@ -153,7 +153,8 @@ GENERATE (PUTTYGEN CAN BE USED TO CREATE KEYS ON WINDOWS)
 > ssh-keygen -t rsa  
 
 ALLOW PUBLIC KEYS
-> cat id_rsa.pub >> .ssh/authorized_keys  
+> cat id_rsa.pub >> .ssh/authorized_keys
+
 OR COPY THE CONTENT OF THE PUBLIC KEY TO authorized_keys
 
 ### ENVRIONMENT
@@ -194,7 +195,7 @@ CRONTAB
 
 ### SYSTEMD
 ---
-/lib/systemd/system
+> /lib/systemd/system
 
 ### SENDMAIL
 ---
