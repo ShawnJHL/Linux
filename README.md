@@ -21,7 +21,7 @@ cat
 mv  
 cp  
 rm  
-> rm \*.txt (REMOVE ALL FILES WITH .txt EXTENTION)  
+> rm
 rmdir  
 grep
 > -n - DISPLAY LINE NUMBER
