@@ -25,9 +25,9 @@ rm
 rmdir  
 **grep**
 > -n - DISPLAY LINE NUMBER
-> -C # - DISPLAY BEFORE & AFTER # LINES FROM THE MATCH  
+> -C # - DISPLAY BEFORE & AFTER # LINES FROM THE MATCH
 **rgrep**
-- find . | xargs grep "SEARCH" (IF RGREP DOESN'T EXIST)  
+- find . | xargs grep "SEARCH" (IF RGREP DOESN'T EXIST)
 find
 > find . -name "*.txt$" (FIND FILES WITH .txt EXTENTION)
 > find . -type d -name something (FILE DIRECTORIES WITH something)
@@ -103,11 +103,7 @@ SUDO
 ---
 FILE PERMISSION
 > drwxrwxrwx OWNER GROUP
-- INDEX 0 - DIRECTORY
-- INDEX 1 - 3 - OWNER
-- INDEX 4 - 7 - GROUP
-- INDEX 8 - 11 - ALL
-
+- DIRECTORY/OWNER/GROUP/ALL
 - r - READ
 - w - WRITE
 - x - EXCUTE
@@ -129,9 +125,9 @@ PROCESS STATUS
 ### NETWORK
 ---
 IP ADDRESS
-> ifconfig
-> ip -4 addr
-> ip -6 addr
+> ifconfig  
+> ip -4 addr  
+> ip -6 addr  
 (INET = IPV4 & INET6 = IPV6)
 
 NETWORK STAT (NETWORK STATUS, PORT, ETC.)
