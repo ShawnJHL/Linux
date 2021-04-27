@@ -22,23 +22,23 @@ mv
 cp  
 rm  
 - rm *.txt (REMOVE ALL FILES WITH .txt EXTENTION)
-rmdir
+rmdir  
 **grep**
 - -n - DISPLAY LINE NUMBER
-- -C # - DISPLAY BEFORE & AFTER # LINES FROM THE MATCH
+- -C # - DISPLAY BEFORE & AFTER # LINES FROM THE MATCH  
 **rgrep**
-- find . | xargs grep "SEARCH" (IF RGREP DOESN'T EXIST)
+- find . | xargs grep "SEARCH" (IF RGREP DOESN'T EXIST)  
 find
 - find . -name "*.txt$" (FIND FILES WITH .txt EXTENTION)
 - find . -type d -name something (FILE DIRECTORIES WITH something)
 - find . -type f -exec grep -l 'SEARCH STRING' {} \; | xargs grep -l 'ANOTHER TEXT' (DISPLAY FILES CONTAINING SEARCH STRINGS)
 - find . -maxdepth 1 -type f -name "*.txt" -delete (DELETE FILES BASED ON SEARCH STRINGS)
-- find . -maxdepth 1 -type f -name "*2020.txt" - exec mv '{}' ./DIRECTORY/ \; (MOVE FILES BASED ON SEARCH STRINGS)
+- find . -maxdepth 1 -type f -name "*2020.txt" - exec mv '{}' ./DIRECTORY/ \; (MOVE FILES BASED ON SEARCH STRINGS)  
 head/tail
 scp
-- scp -r {FILE} {ACCOUNT}@{DESTINATION SERVER}:{DESTINATION PATH}
+- scp -r {FILE} {ACCOUNT}@{DESTINATION SERVER}:{DESTINATION PATH}  
 ln (SYMBOLIC LINK)
-- ln -s {PATH FROM} {PATH TO}
+- ln -s {PATH FROM} {PATH TO}  
 
 ### COMMON ARGUMENTS
 ---
