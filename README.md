@@ -23,10 +23,10 @@ cp
 rm  
 - rm *.txt (REMOVE ALL FILES WITH .txt EXTENTION)
 rmdir  
-**grep**
+grep
 > -n - DISPLAY LINE NUMBER
 > -C # - DISPLAY BEFORE & AFTER # LINES FROM THE MATCH
-**rgrep**
+rgrep
 - find . | xargs grep "SEARCH" (IF RGREP DOESN'T EXIST)
 find
 > find . -name "*.txt$" (FIND FILES WITH .txt EXTENTION)
@@ -181,7 +181,7 @@ SYSTEM WIDE (ALL USER ENVIRONMENT FILE)
 CRONTAB
 > /var/spool/cron/crontabs
 > crontab -e
-* * * * * (EVERY 15 MINUTES)
+* * * * *
 - MINUTE, HOUR, DAY OF MONTH, MONTH, DAY OF WEEK
 - */15 * * * * (EVERY 15 MINUTES)
 - 0 15 * * * (ONCE A DAY AT 15:00)
